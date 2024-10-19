@@ -6,11 +6,24 @@ import AddContact from './AddContact';
 
 
 function App() {
+
+  const contacts = [
+    {
+    id: '1',
+    name: 'Dhaval',
+    email: 'dhaval@gmail.com'
+    },
+    {
+      id: '2',
+      name: 'Nikesh',
+      email: 'nicks@gmail.com'
+    }
+  ];
   return (
-    <div>
+    <div className='ui container'>
       <Header />
       <AddContact />
-      <ContactList />
+      <ContactList contacts={contacts} />
     </div>
   );
 }
