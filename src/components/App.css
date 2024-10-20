@@ -33,6 +33,7 @@ i.icon {
 
 .header-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -67,4 +68,13 @@ i.icon {
 /* Optional: Add some styling for the dialog background */
 body {
   overflow: hidden; /* Prevent scrolling when dialog is open */
+}
+
+.search-bar {
+  width: 100%;          /* Take full width of the container */
+  margin-top: 10px;      /* Add some margin from the top */
+}
+
+.search-bar .ui.icon.input {
+  width: 100%;           /* Make the input take full width of the parent container */
 }
