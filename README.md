@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Contact Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Contact Manager application built with React. It allows users to add, view, edit, and delete contacts. The application also includes a search functionality to filter contacts.
 
-## Available Scripts
+![](https://github.com/nikgrbn/contact-manager/blob/master/preview.gif)
 
-In the project directory, you can run:
+## Key Concepts
 
-### `npm start`
+### React Functional Components
+- The application is built using functional components such as `Header`, `ContactList`, `AddContact`, `EditContact`, `ContactDetail`, and `ConfirmationDialog`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### React Hooks
+- **useState**: Used for managing state in functional components.
+- **useEffect**: Used for performing side effects in functional components.
+- **useRef**: Used for accessing DOM elements directly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### React Router
+- **BrowserRouter**: Used for routing in the application.
+- **Routes** and **Route**: Used for defining routes in the application.
+- **useNavigate**: Used for programmatically navigating between routes.
+- **useLocation**: Used for accessing the current location object.
 
-### `npm test`
+### UUID
+- **uuidv4**: Used for generating unique IDs for contacts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Semantic UI
+- Used for styling the application with pre-built CSS classes.
 
-### `npm run build`
+### JSON Server
+- Used for simulating a REST API to manage contacts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Local Storage
+- Used for persisting contacts data in the browser's local storage.
