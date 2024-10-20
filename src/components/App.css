@@ -41,3 +41,9 @@ i.icon {
   line-height: 1.5; /* Adjust the line height if needed */
   padding-right: 20px; /* Optional: Adjust the space if needed */
 }
+
+.button-container {
+  display: flex;          /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  margin-top: 20px;     /* Optional: Add some margin if needed */
+}

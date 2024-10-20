@@ -5,7 +5,7 @@ import './App.css';
 import Header from './Header';
 import ContactList from './ContactList';
 import AddContact from './AddContact';
-
+import ContactDetail from './ContactDetails';
 
 function App() {
   const LOCAL_STORAGE_KEY = "contacts";
@@ -40,9 +40,8 @@ function App() {
         <Routes>
           <Route path="/add" element={<AddContact addContactHandler={addContactHandler}/>} />
           <Route path="/" element= {<ContactList contacts={contacts} getContactId={removeContactHandler} />} />
+          <Route path="/contact/:id" element={<ContactDetail />} />
         </Routes>
-        {/* <AddContact addContactHandler={addContactHandler}/>
-        <ContactList contacts={contacts} getContactId={removeContactHandler} /> */}
       </Router>
     </div>
   );
