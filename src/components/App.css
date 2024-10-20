@@ -30,3 +30,14 @@ i.icon {
 .ui.menu {
   width: 100%; /* Make sure the menu spans the full width */
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-container h2 {
+  margin: 0; /* Remove default margin */
+  line-height: 1.5; /* Adjust the line height if needed */
+  padding-right: 20px; /* Optional: Adjust the space if needed */
+}
